@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ruleset name="colopl-php-compatibility">
+    <description>COLOPL PHP Compatibility skeleton</description>
+
+    <config name="cache" value="true"/>
+
+    <arg name="parallel" value="1"/>
+    <arg name="extensions" value="php" />
+    <arg name="basepath" value="./"/>
+    <arg value="ps"/>
+
+    <config name="installed_paths" value="vendor/phpcsstandards/phpcsutils/PHPCSUtils,vendor/phpcsstandards/phpcsutils/PHPCS23Utils,vendor/phpcompatibility/php-compatibility"/>
+    <config name="testVersion" value="8.1"/>
+
+    <file>./src</file>
+    <file>./tests</file>
+
+    <ini name="memory_limit" value="-1"/>
+
+    <rule ref="PHPCompatibility"/>
+</ruleset>

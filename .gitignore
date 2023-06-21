@@ -1,0 +1,13 @@
+# PhpStorm
+.idea/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/jsLinters/
+!.idea/package-skeleton.iml
+!.idea/jsonSchemas.xml
+!.idea/php.xml
+!.idea/phpunit.xml
+
+# Library
+vendor/*
+composer.lock

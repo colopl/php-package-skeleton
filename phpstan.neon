@@ -1,0 +1,10 @@
+includes:
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+    - vendor/phpstan/phpstan-phpunit/extension.neon
+parameters:
+    paths:
+        - ./src
+        - ./tests
+    level: max
+    parallel:
+        processTimeout: 1800.0
